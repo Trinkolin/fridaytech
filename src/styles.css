@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.slide {
+  @apply p-12 bg-gray-50 border-gray-300 shadow-lg flex flex-col min-h-[95vh] rounded-3xl
+  prose prose-lg xl:prose-xl max-w-none prose-pre:bg-[#2d2d2d] prose-pre:text-[#ccc] prose-pre:text-[20px];
+}

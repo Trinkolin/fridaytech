@@ -1,0 +1,11 @@
+<app-slideshow-title></app-slideshow-title>
+
+<ol class="pt-0 pl-0 list-disc list-inside">
+  @for (slide of slides; track slide.id; let idx = $index) {
+    @if (slide.include) {
+      <li [ngClass]="getPadding(idx)">
+        {{ slide.title }}
+      </li>
+    }
+  }
+</ol>

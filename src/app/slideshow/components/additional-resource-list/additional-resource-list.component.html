@@ -1,0 +1,9 @@
+<app-slideshow-title></app-slideshow-title>
+<mat-list>
+  @for (additionalResource of additionalResources; track additionalResource) {
+    <app-additional-resource-item
+      [additionalResource]="additionalResource"
+      class="prose-2xl"
+    />
+  }
+</mat-list>

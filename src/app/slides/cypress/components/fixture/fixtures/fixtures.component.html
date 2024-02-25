@@ -1,0 +1,35 @@
+<app-slideshow-title></app-slideshow-title>
+
+<p>
+  Les fixtures sont des fichiers externes contenant des données que les tests
+  Cypress peuvent utiliser. Ces données peuvent être de n'importe quel type, y
+  compris des chaînes de caractères, des tableaux, des objets, des images, des
+  fichiers JSON, etc.
+</p>
+
+<p>Les fixtures sont stockés par défaut dans le dossier:</p>
+<pre>cypress/fixtures</pre>
+
+<p>Pour utiliser un fixture, vous pouvez utiliser la commande:</p>
+<pre>cy.fixture()</pre>
+
+<p>Exemple de fixture</p>
+<p>Voici un exemple de fixture qui contient une chaîne de caractères:</p>
+<app-prism [code]="basic_fixture" language="json"></app-prism>
+
+<p>
+  Pour utiliser ce fixture dans un test, vous pouvez utiliser la commande
+  cy.fixture() comme suit:
+</p>
+<app-prism [code]="use_basic_fixture" language="json"></app-prism>
+
+<p>
+  Les fixtures peuvent être utilisées dans une grande variété de cas
+  d'utilisation, comme pour :
+</p>
+<ul>
+  <li>Fournir des données pour les tests de validation</li>
+  <li>Fournir des données pour les tests de performances</li>
+  <li>Simuler des requêtes réseau</li>
+  <li>Générer des données aléatoires</li>
+</ul>
