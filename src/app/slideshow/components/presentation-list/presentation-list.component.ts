@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { PresentationService } from '../../services/presentation.service';
 import { Resource } from '../../models/resources';
 import { PresentationItemComponent } from './presentation-item/presentation-item.component';
@@ -13,8 +13,7 @@ import { NgForOf } from '@angular/common';
 })
 export class PresentationListComponent implements OnInit {
   presentations: Resource[] = [];
-
-  constructor(private presentationService: PresentationService) {}
+  private presentationService =  inject(PresentationService);
 
   ngOnInit() {
     this.presentationService.getPresentations().subscribe((presentations) => {

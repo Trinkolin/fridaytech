@@ -1,4 +1,4 @@
-import { Component, Inject, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, inject } from '@angular/core';
 import { TableOfContentsService } from '../../services/table-of-contents.service';
 import { CurrentIndexService } from '../../services/current-index.service';
 import { Router } from '@angular/router';
@@ -11,9 +11,10 @@ import { Router } from '@angular/router';
 export class SlideshowTitleComponent implements OnInit {
   title = '';
 
+  private currentIndexService = inject(CurrentIndexService);
+  private tocService = inject( TableOfContentsService);
+
   constructor(
-    private currentIndexService: CurrentIndexService,
-    private tocService: TableOfContentsService,
     protected router: Router,
     @Inject('module') private _module: string,
   ) {}

@@ -1,6 +1,6 @@
 {
   "version": "6.0",
-  "nxVersion": "17.3.2",
+  "nxVersion": "18.2.4",
   "deps": {
     "@angular/animations": "^17.3.1",
     "@angular/cdk": "^17.3.1",
@@ -53,6 +53,10 @@
         "hash": "17241496168097493888"
       },
       {
+        "file": ".eslintrc.json",
+        "hash": "14645878845883387518"
+      },
+      {
         "file": ".gitignore",
         "hash": "4689145951703824387"
       },
@@ -62,7 +66,7 @@
       },
       {
         "file": "angular.json",
-        "hash": "15645820537060141076"
+        "hash": "13702959193643910364"
       },
       {
         "file": "cypress.config.ts",
@@ -97,12 +101,16 @@
         "hash": "7592625247927532916"
       },
       {
+        "file": "eslint.config.mjs",
+        "hash": "12307827117222686532"
+      },
+      {
         "file": "package-lock.json",
-        "hash": "85959002098559926"
+        "hash": "16888056192145908789"
       },
       {
         "file": "package.json",
-        "hash": "18210035817645609819"
+        "hash": "12641477230578210689"
       },
       {
         "file": "src/app/app.component.html",
@@ -130,7 +138,7 @@
       },
       {
         "file": "src/app/shared/components/prism/prism.component.ts",
-        "hash": "18269732430168954737"
+        "hash": "18325135161463409557"
       },
       {
         "file": "src/app/slides/cypress/components/conclusion/conclusion.component.html",
@@ -194,7 +202,7 @@
       },
       {
         "file": "src/app/slides/cypress/cypress.module.ts",
-        "hash": "3620496209336495833"
+        "hash": "16161968085855341624"
       },
       {
         "file": "src/app/slides/tailwindcss/components/conclusion/conclusion.component.html",
@@ -326,7 +334,7 @@
       },
       {
         "file": "src/app/slideshow/components/additional-resource-list/additional-resource-item/additonal-resource-item.component.ts",
-        "hash": "16165986313093994519"
+        "hash": "11305445746445242446"
       },
       {
         "file": "src/app/slideshow/components/additional-resource-list/additional-resource-list.component.html",
@@ -342,7 +350,7 @@
       },
       {
         "file": "src/app/slideshow/components/presentation-list/presentation-item/presentation-item.component.ts",
-        "hash": "5339552214441512976"
+        "hash": "18434829701351466442"
       },
       {
         "file": "src/app/slideshow/components/presentation-list/presentation-list.component.html",
@@ -510,7 +518,7 @@
       },
       {
         "file": "tsconfig.json",
-        "hash": "9157360395480862226"
+        "hash": "428565462364671651"
       },
       {
         "file": "tsconfig.spec.json",

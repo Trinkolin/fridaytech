@@ -1,4 +1,4 @@
-import { Component, Inject, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, inject } from '@angular/core';
 import { AdditionalResourcesService } from '../../services/additional-resources.service';
 import { Resource } from '../../models/resources';
 import { AdditonalResourceItemComponent } from './additional-resource-item/additonal-resource-item.component';
@@ -20,10 +20,9 @@ import { NgForOf } from '@angular/common';
 export class AdditionalResourceListComponent implements OnInit {
   additionalResources: Resource[] = [];
 
-  constructor(
-    protected additionalResourcesService: AdditionalResourcesService,
-    @Inject('module') private _module: string,
-  ) {}
+  private additionalResourcesService = inject(AdditionalResourcesService);
+
+  constructor(@Inject('module') private _module: string) {}
 
   ngOnInit() {
     this.additionalResourcesService

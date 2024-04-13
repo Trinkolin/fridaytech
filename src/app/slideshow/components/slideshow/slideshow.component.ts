@@ -1,4 +1,4 @@
-import { Component, Inject, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, inject } from '@angular/core';
 import { Slide } from '../../models/slide';
 import { Router, RouterOutlet } from '@angular/router';
 import { TableOfContentsService } from '../../services/table-of-contents.service';
@@ -17,11 +17,12 @@ export class SlideshowComponent implements OnInit {
 
   _percentage: number;
 
+  private tocService = inject(TableOfContentsService);
+  private currentIndexService = inject(CurrentIndexService);
+
   constructor(
-    protected tocService: TableOfContentsService,
-    protected currentIndexService: CurrentIndexService,
     protected router: Router,
-    @Inject('module') private _module: string,
+    @Inject('module') private _module: string
   ) {
     this.currentIndexService.zero();
 
