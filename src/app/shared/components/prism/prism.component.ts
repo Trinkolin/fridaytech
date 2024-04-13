@@ -2,8 +2,7 @@ import {
   AfterViewInit,
   Component,
   ElementRef,
-  Input,
-  ViewChild,
+  ViewChild,input,
 } from '@angular/core';
 
 @Component({
@@ -14,8 +13,8 @@ import {
 export class PrismComponent implements AfterViewInit {
   @ViewChild('codeEle') codeEle!: ElementRef;
 
-  @Input() code?: string;
-  @Input() language?: string;
+  code = input.required<string>();
+  language = input.required<string>();
 
   ngAfterViewInit() {
     //  highlightElement(this.codeEle.nativeElement);

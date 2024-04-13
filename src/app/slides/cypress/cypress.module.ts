@@ -8,7 +8,6 @@ import { TocComponent } from '../../slideshow/components/toc/toc.component';
 import { AdditionalResourceListComponent } from '../../slideshow/components/additional-resource-list/additional-resource-list.component';
 import { InstallationComponent } from './components/installation/installation.component';
 import { FundamentalsComponent } from './components/fundamentals/fundamentals.component';
-import { FixturesComponent } from './components/fixture/fixtures/fixtures.component';
 
 const cypressRoutes: Routes = [
   {

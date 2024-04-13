@@ -1,0 +1,521 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.3.2",
+  "deps": {
+    "@angular/animations": "^17.3.1",
+    "@angular/cdk": "^17.3.1",
+    "@angular/common": "^17.3.1",
+    "@angular/compiler": "^17.3.1",
+    "@angular/core": "^17.3.1",
+    "@angular/forms": "^17.3.1",
+    "@angular/material": "^17.3.1",
+    "@angular/platform-browser": "^17.3.1",
+    "@angular/platform-browser-dynamic": "^17.3.1",
+    "@angular/router": "^17.3.1",
+    "@tailwindcss/typography": "^0.5.10",
+    "ngxtension": "^2.2.1",
+    "prismjs": "^1.29.0",
+    "rxjs": "~7.8.1",
+    "tslib": "^2.6.2",
+    "zone.js": "~0.14.4",
+    "@angular-devkit/build-angular": "^17.3.1",
+    "@angular-eslint/builder": "17.3.0",
+    "@angular-eslint/eslint-plugin": "17.3.0",
+    "@angular-eslint/eslint-plugin-template": "17.3.0",
+    "@angular-eslint/schematics": "17.3.0",
+    "@angular-eslint/template-parser": "17.3.0",
+    "@angular/cli": "^17.3.1",
+    "@angular/compiler-cli": "^17.3.1",
+    "@cypress/schematic": "^2.5.1",
+    "@types/jasmine": "~5.1.4",
+    "@typescript-eslint/eslint-plugin": "7.2.0",
+    "@typescript-eslint/parser": "7.2.0",
+    "autoprefixer": "^10.4.19",
+    "cypress": "^13.7.1",
+    "eslint": "^8.57.0",
+    "jasmine-core": "~5.1.2",
+    "karma": "~6.4.3",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.1",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1",
+    "typescript": "~5.4.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "17241496168097493888"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "4689145951703824387"
+      },
+      {
+        "file": "README.md",
+        "hash": "14081644418930877449"
+      },
+      {
+        "file": "angular.json",
+        "hash": "15645820537060141076"
+      },
+      {
+        "file": "cypress.config.ts",
+        "hash": "10268966753928962472"
+      },
+      {
+        "file": "cypress/e2e/spec.cy.ts",
+        "hash": "8384328364858590533"
+      },
+      {
+        "file": "cypress/fixtures/example.json",
+        "hash": "17341819486505642070"
+      },
+      {
+        "file": "cypress/support/commands.ts",
+        "hash": "7580665643526168991"
+      },
+      {
+        "file": "cypress/support/component-index.html",
+        "hash": "15497632786765754848"
+      },
+      {
+        "file": "cypress/support/component.ts",
+        "hash": "16799634981918834692"
+      },
+      {
+        "file": "cypress/support/e2e.ts",
+        "hash": "1891399876864538420"
+      },
+      {
+        "file": "cypress/tsconfig.json",
+        "hash": "7592625247927532916"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "85959002098559926"
+      },
+      {
+        "file": "package.json",
+        "hash": "18210035817645609819"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "17385897758380840601"
+      },
+      {
+        "file": "src/app/app.component.spec.ts",
+        "hash": "10442212325064126569"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "11441628378564927993"
+      },
+      {
+        "file": "src/app/app.config.ts",
+        "hash": "11413578429488969265"
+      },
+      {
+        "file": "src/app/app.routes.ts",
+        "hash": "16360910135251811638"
+      },
+      {
+        "file": "src/app/shared/components/prism/prism.component.html",
+        "hash": "3154909748448564935"
+      },
+      {
+        "file": "src/app/shared/components/prism/prism.component.ts",
+        "hash": "18269732430168954737"
+      },
+      {
+        "file": "src/app/slides/cypress/components/conclusion/conclusion.component.html",
+        "hash": "4712974671315131874"
+      },
+      {
+        "file": "src/app/slides/cypress/components/conclusion/conclusion.component.ts",
+        "hash": "2381136200430378616"
+      },
+      {
+        "file": "src/app/slides/cypress/components/cover/cover.component.html",
+        "hash": "1094671932179967856"
+      },
+      {
+        "file": "src/app/slides/cypress/components/cover/cover.component.ts",
+        "hash": "6577439021379523849"
+      },
+      {
+        "file": "src/app/slides/cypress/components/fixture/advantage/advantage.component.html",
+        "hash": "15922991563925927690"
+      },
+      {
+        "file": "src/app/slides/cypress/components/fixture/advantage/advantage.component.ts",
+        "hash": "603437668697976158"
+      },
+      {
+        "file": "src/app/slides/cypress/components/fixture/fixture.routes.ts",
+        "hash": "13214460973453618093"
+      },
+      {
+        "file": "src/app/slides/cypress/components/fixture/fixtures/fixtures.component.html",
+        "hash": "2500651529323734843"
+      },
+      {
+        "file": "src/app/slides/cypress/components/fixture/fixtures/fixtures.component.ts",
+        "hash": "10291775402632657868"
+      },
+      {
+        "file": "src/app/slides/cypress/components/fixture/other/other.component.html",
+        "hash": "10295349787304673438"
+      },
+      {
+        "file": "src/app/slides/cypress/components/fixture/other/other.component.ts",
+        "hash": "17913301467612335933"
+      },
+      {
+        "file": "src/app/slides/cypress/components/fundamentals/fundamentals.component.html",
+        "hash": "15905199815775569904"
+      },
+      {
+        "file": "src/app/slides/cypress/components/fundamentals/fundamentals.component.ts",
+        "hash": "16417985340289665993"
+      },
+      {
+        "file": "src/app/slides/cypress/components/installation/installation.component.html",
+        "hash": "3212805062039869491"
+      },
+      {
+        "file": "src/app/slides/cypress/components/installation/installation.component.ts",
+        "hash": "12112916066494298355"
+      },
+      {
+        "file": "src/app/slides/cypress/cypress.module.ts",
+        "hash": "3620496209336495833"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/conclusion/conclusion.component.html",
+        "hash": "12575173257887222205"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/conclusion/conclusion.component.ts",
+        "hash": "2381136200430378616"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/cover/cover.component.html",
+        "hash": "229865041368087033"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/cover/cover.component.ts",
+        "hash": "17428178715507484347"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/framework-css/framework-css.component.html",
+        "hash": "6695674242298930458"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/framework-css/framework-css.component.ts",
+        "hash": "11944989941288226738"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/introduction/introduction.component.html",
+        "hash": "13159514120993763215"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/introduction/introduction.component.ts",
+        "hash": "5746818205086277838"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/responsive-design/flexbox/flexbox.component.html",
+        "hash": "13577083824284186387"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/responsive-design/flexbox/flexbox.component.ts",
+        "hash": "13284851556294030192"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/responsive-design/introduction/introduction.component.html",
+        "hash": "13858850832507426147"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/responsive-design/introduction/introduction.component.ts",
+        "hash": "12262963140773748610"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/responsive-design/media-queries/media-queries.component.html",
+        "hash": "5724972472241298311"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/responsive-design/media-queries/media-queries.component.ts",
+        "hash": "3785331112669072221"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/responsive-design/responsive-design.module.ts",
+        "hash": "4975650204745836705"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/tailwind/customization/customization.component.html",
+        "hash": "2759884443972931024"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/tailwind/customization/customization.component.ts",
+        "hash": "10230229067169255943"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/tailwind/demonstration/demonstration.component.html",
+        "hash": "6368945366557922905"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/tailwind/demonstration/demonstration.component.ts",
+        "hash": "3841432618128726874"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/tailwind/installation-end/installation-end.component.html",
+        "hash": "14866362304693086441"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/tailwind/installation-end/installation-end.component.ts",
+        "hash": "13503932518985738533"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/tailwind/installation/installation.component.html",
+        "hash": "10131278038833564092"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/tailwind/installation/installation.component.ts",
+        "hash": "16042038625925377315"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/tailwind/integration-material/integration-material.component.html",
+        "hash": "7969519941850880886"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/tailwind/integration-material/integration-material.component.ts",
+        "hash": "4041473751616222114"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/tailwind/introduction/introduction.component.html",
+        "hash": "3477220541466975850"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/tailwind/introduction/introduction.component.ts",
+        "hash": "2826500897993105799"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/tailwind/jit/jit.component.html",
+        "hash": "827928541302424904"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/tailwind/jit/jit.component.ts",
+        "hash": "10902105212790507778"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/components/tailwind/tailwind.routes.ts",
+        "hash": "15942911339783937993"
+      },
+      {
+        "file": "src/app/slides/tailwindcss/tailwindcss.module.ts",
+        "hash": "18399845703745418824"
+      },
+      {
+        "file": "src/app/slideshow/components/additional-resource-list/additional-resource-item/additional-resource-item.component.html",
+        "hash": "7698409251846809467"
+      },
+      {
+        "file": "src/app/slideshow/components/additional-resource-list/additional-resource-item/additonal-resource-item.component.ts",
+        "hash": "16165986313093994519"
+      },
+      {
+        "file": "src/app/slideshow/components/additional-resource-list/additional-resource-list.component.html",
+        "hash": "3401351337381859199"
+      },
+      {
+        "file": "src/app/slideshow/components/additional-resource-list/additional-resource-list.component.ts",
+        "hash": "13667543153859796090"
+      },
+      {
+        "file": "src/app/slideshow/components/presentation-list/presentation-item/presentation-item.component.html",
+        "hash": "4695575467182288495"
+      },
+      {
+        "file": "src/app/slideshow/components/presentation-list/presentation-item/presentation-item.component.ts",
+        "hash": "5339552214441512976"
+      },
+      {
+        "file": "src/app/slideshow/components/presentation-list/presentation-list.component.html",
+        "hash": "4237558333393531347"
+      },
+      {
+        "file": "src/app/slideshow/components/presentation-list/presentation-list.component.ts",
+        "hash": "2966781179866148130"
+      },
+      {
+        "file": "src/app/slideshow/components/slideshow-title/slideshow-title.component.html",
+        "hash": "10297294871134305092"
+      },
+      {
+        "file": "src/app/slideshow/components/slideshow-title/slideshow-title.component.ts",
+        "hash": "12319423767409282000"
+      },
+      {
+        "file": "src/app/slideshow/components/slideshow/slideshow.component.html",
+        "hash": "20573985936181085"
+      },
+      {
+        "file": "src/app/slideshow/components/slideshow/slideshow.component.ts",
+        "hash": "7868809272572217263"
+      },
+      {
+        "file": "src/app/slideshow/components/toc/toc.component.html",
+        "hash": "13415574449159435897"
+      },
+      {
+        "file": "src/app/slideshow/components/toc/toc.component.ts",
+        "hash": "8482093615389038744"
+      },
+      {
+        "file": "src/app/slideshow/models/resources.ts",
+        "hash": "3453594743023231668"
+      },
+      {
+        "file": "src/app/slideshow/models/slide.ts",
+        "hash": "12707582890595579472"
+      },
+      {
+        "file": "src/app/slideshow/services/additional-resources.service.ts",
+        "hash": "347135220115434104"
+      },
+      {
+        "file": "src/app/slideshow/services/current-index.service.ts",
+        "hash": "7950031599146987124"
+      },
+      {
+        "file": "src/app/slideshow/services/presentation.service.ts",
+        "hash": "14614676899320839442"
+      },
+      {
+        "file": "src/app/slideshow/services/table-of-contents.service.ts",
+        "hash": "273057484052876246"
+      },
+      {
+        "file": "src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/assets/slides/cypress/images/config_1.png",
+        "hash": "8020363654124539384"
+      },
+      {
+        "file": "src/assets/slides/cypress/images/config_2.png",
+        "hash": "223201332164409963"
+      },
+      {
+        "file": "src/assets/slides/cypress/images/create_test_1.png",
+        "hash": "9077410052257920201"
+      },
+      {
+        "file": "src/assets/slides/cypress/images/create_test_2.png",
+        "hash": "878636544182450136"
+      },
+      {
+        "file": "src/assets/slides/cypress/images/create_test_3.png",
+        "hash": "4457864496284661561"
+      },
+      {
+        "file": "src/assets/slides/cypress/images/create_test_4.png",
+        "hash": "3158925251871502973"
+      },
+      {
+        "file": "src/assets/slides/cypress/images/cypress-logo.svg",
+        "hash": "5121099713668051231"
+      },
+      {
+        "file": "src/assets/slides/cypress/images/debug_test_1.png",
+        "hash": "14693251599359106947"
+      },
+      {
+        "file": "src/assets/slides/cypress/images/debug_test_2.png",
+        "hash": "2620543372914573154"
+      },
+      {
+        "file": "src/assets/slides/cypress/images/execute_test_1.png",
+        "hash": "9507830177000234054"
+      },
+      {
+        "file": "src/assets/slides/cypress/images/launch_run.png",
+        "hash": "2762486779199426363"
+      },
+      {
+        "file": "src/assets/slides/tailwindcss/images/Adaptive.jpg",
+        "hash": "5644243233981199896"
+      },
+      {
+        "file": "src/assets/slides/tailwindcss/images/angularmaterial.svg",
+        "hash": "5290521301870400880"
+      },
+      {
+        "file": "src/assets/slides/tailwindcss/images/bootstrap-logo-shadow.png",
+        "hash": "12953646828862919841"
+      },
+      {
+        "file": "src/assets/slides/tailwindcss/images/bulma.svg",
+        "hash": "10302846971113287848"
+      },
+      {
+        "file": "src/assets/slides/tailwindcss/images/foundation.svg",
+        "hash": "9157037905561365255"
+      },
+      {
+        "file": "src/assets/slides/tailwindcss/images/tailwind.svg",
+        "hash": "5188857959903741486"
+      },
+      {
+        "file": "src/assets/slideshow/json/additional-resources.json",
+        "hash": "11446124756478118579"
+      },
+      {
+        "file": "src/assets/slideshow/json/presentations.json",
+        "hash": "9643195427360280608"
+      },
+      {
+        "file": "src/assets/slideshow/json/slides-definition.json",
+        "hash": "13240046301648778806"
+      },
+      {
+        "file": "src/favicon.ico",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "15276744912761402132"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "17052569609227678343"
+      },
+      {
+        "file": "src/styles.css",
+        "hash": "14944180380363509605"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "6597943367240553855"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "15036339480653642285"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "9157360395480862226"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "578114845087265838"
+      }
+    ]
+  }
+}

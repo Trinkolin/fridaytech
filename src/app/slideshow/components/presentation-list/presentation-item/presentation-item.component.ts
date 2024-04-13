@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { Resource } from '../../../models/resources';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
@@ -10,5 +10,5 @@ import { MatListModule } from '@angular/material/list';
   imports: [MatIconModule, MatListModule],
 })
 export class PresentationItemComponent {
-  @Input() presentation!: Resource;
+  presentation = input.required<Resource>();
 }
