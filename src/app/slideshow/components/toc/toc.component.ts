@@ -2,7 +2,7 @@ import { Component, Inject, OnInit } from '@angular/core';
 import { Slide } from '../../models/slide';
 import { TableOfContentsService } from '../../services/table-of-contents.service';
 import { SlideshowTitleComponent } from '../slideshow-title/slideshow-title.component';
-import { NgClass, NgForOf, NgIf } from '@angular/common';
+import { NgClass } from '@angular/common';
 
 @Component({
     selector: 'app-toc',

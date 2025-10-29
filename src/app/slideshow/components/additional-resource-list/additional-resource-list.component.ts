@@ -4,7 +4,6 @@ import { Resource } from '../../models/resources';
 import { AdditonalResourceItemComponent } from './additional-resource-item/additonal-resource-item.component';
 import { SlideshowTitleComponent } from '../slideshow-title/slideshow-title.component';
 import { MatListModule } from '@angular/material/list';
-import { NgForOf } from '@angular/common';
 
 @Component({
     selector: 'app-additional-resource-list',

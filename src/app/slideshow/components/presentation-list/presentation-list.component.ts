@@ -3,7 +3,6 @@ import { PresentationService } from '../../services/presentation.service';
 import { Resource } from '../../models/resources';
 import { PresentationItemComponent } from './presentation-item/presentation-item.component';
 import { MatListModule } from '@angular/material/list';
-import { NgForOf } from '@angular/common';
 
 @Component({
     selector: 'app-presentation-list',
