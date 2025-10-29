@@ -3,10 +3,9 @@ import { PrismComponent } from '../../../../../shared/components/prism/prism.com
 import { SlideshowTitleComponent } from '../../../../../slideshow/components/slideshow-title/slideshow-title.component';
 
 @Component({
-  selector: 'app-installation-end',
-  standalone: true,
-  templateUrl: './installation-end.component.html',
-  imports: [PrismComponent, SlideshowTitleComponent],
+    selector: 'app-installation-end',
+    templateUrl: './installation-end.component.html',
+    imports: [PrismComponent, SlideshowTitleComponent]
 })
 export class InstallationEndComponent {
   step_3 = `

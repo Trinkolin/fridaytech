@@ -3,10 +3,9 @@ import { PrismComponent } from '../../../../../shared/components/prism/prism.com
 import { SlideshowTitleComponent } from '../../../../../slideshow/components/slideshow-title/slideshow-title.component';
 
 @Component({
-  selector: 'app-media-queries',
-  standalone: true,
-  templateUrl: './media-queries.component.html',
-  imports: [PrismComponent, SlideshowTitleComponent],
+    selector: 'app-media-queries',
+    templateUrl: './media-queries.component.html',
+    imports: [PrismComponent, SlideshowTitleComponent]
 })
 export class MediaQueriesComponent {
   syntax = `

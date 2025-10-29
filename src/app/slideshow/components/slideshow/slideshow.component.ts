@@ -7,10 +7,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 @Component({
-  selector: 'app-slideshow',
-  standalone: true,
-  templateUrl: './slideshow.component.html',
-  imports: [RouterOutlet, MatButtonModule, MatProgressBarModule],
+    selector: 'app-slideshow',
+    templateUrl: './slideshow.component.html',
+    imports: [RouterOutlet, MatButtonModule, MatProgressBarModule]
 })
 export class SlideshowComponent implements OnInit {
   slides: Slide[] = [];

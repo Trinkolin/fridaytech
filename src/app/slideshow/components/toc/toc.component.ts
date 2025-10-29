@@ -5,10 +5,9 @@ import { SlideshowTitleComponent } from '../slideshow-title/slideshow-title.comp
 import { NgClass, NgForOf, NgIf } from '@angular/common';
 
 @Component({
-  selector: 'app-toc',
-  standalone: true,
-  templateUrl: './toc.component.html',
-  imports: [SlideshowTitleComponent, NgForOf, NgIf, NgClass],
+    selector: 'app-toc',
+    templateUrl: './toc.component.html',
+    imports: [SlideshowTitleComponent, NgClass]
 })
 export class TocComponent implements OnInit {
   slides: Slide[] = [];

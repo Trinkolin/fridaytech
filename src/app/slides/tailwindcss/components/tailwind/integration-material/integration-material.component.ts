@@ -5,15 +5,14 @@ import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
 
 @Component({
-  selector: 'app-tailwind-integration-material',
-  standalone: true,
-  templateUrl: './integration-material.component.html',
-  imports: [
-    PrismComponent,
-    SlideshowTitleComponent,
-    MatCardModule,
-    MatInputModule,
-  ],
+    selector: 'app-tailwind-integration-material',
+    templateUrl: './integration-material.component.html',
+    imports: [
+        PrismComponent,
+        SlideshowTitleComponent,
+        MatCardModule,
+        MatInputModule,
+    ]
 })
 export class IntegrationMaterialComponent {
   codeWithoutCustomClasses = `

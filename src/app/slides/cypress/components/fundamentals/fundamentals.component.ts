@@ -3,10 +3,9 @@ import { PrismComponent } from '../../../../shared/components/prism/prism.compon
 import { SlideshowTitleComponent } from '../../../../slideshow/components/slideshow-title/slideshow-title.component';
 
 @Component({
-  selector: 'app-fundamentals',
-  standalone: true,
-  templateUrl: './fundamentals.component.html',
-  imports: [PrismComponent, SlideshowTitleComponent],
+    selector: 'app-fundamentals',
+    templateUrl: './fundamentals.component.html',
+    imports: [PrismComponent, SlideshowTitleComponent]
 })
 export class FundamentalsComponent {
   chaining_commands = `

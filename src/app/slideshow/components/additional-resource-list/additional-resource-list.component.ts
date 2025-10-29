@@ -7,15 +7,13 @@ import { MatListModule } from '@angular/material/list';
 import { NgForOf } from '@angular/common';
 
 @Component({
-  selector: 'app-additional-resource-list',
-  standalone: true,
-  templateUrl: './additional-resource-list.component.html',
-  imports: [
-    AdditonalResourceItemComponent,
-    SlideshowTitleComponent,
-    MatListModule,
-    NgForOf,
-  ],
+    selector: 'app-additional-resource-list',
+    templateUrl: './additional-resource-list.component.html',
+    imports: [
+        AdditonalResourceItemComponent,
+        SlideshowTitleComponent,
+        MatListModule,
+    ]
 })
 export class AdditionalResourceListComponent implements OnInit {
   additionalResources: Resource[] = [];

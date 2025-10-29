@@ -3,10 +3,9 @@ import { PrismComponent } from '../../../../shared/components/prism/prism.compon
 import { SlideshowTitleComponent } from '../../../../slideshow/components/slideshow-title/slideshow-title.component';
 
 @Component({
-  selector: 'app-installation',
-  standalone: true,
-  templateUrl: './installation.component.html',
-  imports: [PrismComponent, SlideshowTitleComponent],
+    selector: 'app-installation',
+    templateUrl: './installation.component.html',
+    imports: [PrismComponent, SlideshowTitleComponent]
 })
 export class InstallationComponent {
   install_command = 'npm install cypress --save-dev';

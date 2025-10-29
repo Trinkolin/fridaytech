@@ -3,10 +3,9 @@ import { PrismComponent } from '../../../../../shared/components/prism/prism.com
 import { SlideshowTitleComponent } from '../../../../../slideshow/components/slideshow-title/slideshow-title.component';
 
 @Component({
-  selector: 'app-tailwind-installation',
-  standalone: true,
-  templateUrl: './installation.component.html',
-  imports: [PrismComponent, SlideshowTitleComponent],
+    selector: 'app-tailwind-installation',
+    templateUrl: './installation.component.html',
+    imports: [PrismComponent, SlideshowTitleComponent]
 })
 export class InstallationComponent {
   step_1 = `

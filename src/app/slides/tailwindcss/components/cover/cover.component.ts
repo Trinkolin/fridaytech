@@ -3,10 +3,9 @@ import { ActivatedRoute } from '@angular/router';
 import { NgOptimizedImage } from '@angular/common';
 
 @Component({
-  selector: 'app-cover',
-  standalone: true,
-  templateUrl: './cover.component.html',
-  imports: [NgOptimizedImage],
+    selector: 'app-cover',
+    templateUrl: './cover.component.html',
+    imports: [NgOptimizedImage]
 })
 export class CoverComponent implements OnInit {
   title: string | undefined;

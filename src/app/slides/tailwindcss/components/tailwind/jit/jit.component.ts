@@ -3,10 +3,9 @@ import { PrismComponent } from '../../../../../shared/components/prism/prism.com
 import { SlideshowTitleComponent } from '../../../../../slideshow/components/slideshow-title/slideshow-title.component';
 
 @Component({
-  selector: 'app-tailwind-jit',
-  standalone: true,
-  templateUrl: './jit.component.html',
-  imports: [PrismComponent, SlideshowTitleComponent],
+    selector: 'app-tailwind-jit',
+    templateUrl: './jit.component.html',
+    imports: [PrismComponent, SlideshowTitleComponent]
 })
 export class JitComponent {
   example_html = `

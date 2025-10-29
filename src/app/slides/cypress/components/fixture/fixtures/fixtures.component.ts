@@ -3,10 +3,9 @@ import { SlideshowTitleComponent } from '../../../../../slideshow/components/sli
 import { PrismComponent } from '../../../../../shared/components/prism/prism.component';
 
 @Component({
-  selector: 'app-fixtures',
-  standalone: true,
-  imports: [SlideshowTitleComponent, PrismComponent],
-  templateUrl: './fixtures.component.html',
+    selector: 'app-fixtures',
+    imports: [SlideshowTitleComponent, PrismComponent],
+    templateUrl: './fixtures.component.html'
 })
 export class FixturesComponent {
   basic_fixture = `
